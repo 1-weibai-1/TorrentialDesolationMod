@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "torrential_desolation:blocks/aura_dirt",
+    "top": "torrential_desolation:blocks/aura_grass_block_top",
+    "side": "torrential_desolation:blocks/aura_grass_block_side",
+    "overlay": "torrential_desolation:blocks/aura_grass_side_overlay",
+    "particle": "torrential_desolation:blocks/aura_dirt"
+  }
+}

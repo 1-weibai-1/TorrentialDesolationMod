@@ -1,0 +1,100 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 22-4-4 上午12:25
+Description: Exception ticking world
+
+java.lang.IllegalArgumentException: Cannot set property IntegerProperty{name=snow, clazz=class java.lang.Integer, values=[0, 1]} as it does not exist in Block{torrential_desolation:aura_grass_block}
+	at net.minecraft.state.StateHolder.with(StateHolder.java:114) ~[forge:?] {re:classloading}
+	at wei_bai.torrential_desolation.block.AuragrassblockBlock$CustomBlock.tick(AuragrassblockBlock.java:142) ~[?:?] {re:classloading}
+	at net.minecraft.block.AbstractBlock.randomTick(AbstractBlock.java:287) ~[forge:?] {re:classloading}
+	at net.minecraft.block.AbstractBlock$AbstractBlockState.randomTick(AbstractBlock.java:624) ~[forge:?] {re:classloading}
+	at net.minecraft.world.server.ServerWorld.tickEnvironment(ServerWorld.java:508) ~[forge:?] {re:classloading}
+	at net.minecraft.world.server.ServerChunkProvider.func_241099_a_(ServerChunkProvider.java:367) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_301] {}
+	at net.minecraft.world.server.ServerChunkProvider.tickChunks(ServerChunkProvider.java:351) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ServerChunkProvider.tick(ServerChunkProvider.java:326) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ServerWorld.tick(ServerWorld.java:333) ~[forge:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:851) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:787) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:78) ~[forge:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_301] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.state.StateHolder.with(StateHolder.java:114) ~[forge:?] {re:classloading}
+	at wei_bai.torrential_desolation.block.AuragrassblockBlock$CustomBlock.tick(AuragrassblockBlock.java:142) ~[?:?] {re:classloading}
+	at net.minecraft.block.AbstractBlock.randomTick(AbstractBlock.java:287) ~[forge:?] {re:classloading}
+	at net.minecraft.block.AbstractBlock$AbstractBlockState.randomTick(AbstractBlock.java:624) ~[forge:?] {re:classloading}
+	at net.minecraft.world.server.ServerWorld.tickEnvironment(ServerWorld.java:508) ~[forge:?] {re:classloading}
+	at net.minecraft.world.server.ServerChunkProvider.func_241099_a_(ServerChunkProvider.java:367) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_301] {}
+	at net.minecraft.world.server.ServerChunkProvider.tickChunks(ServerChunkProvider.java:351) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ServerChunkProvider.tick(ServerChunkProvider.java:326) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ServerWorld.tick(ServerWorld.java:333) ~[forge:?] {re:classloading}
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayerEntity['Dev'/133, l='ServerLevel[新的世界]', x=133.71, y=108.00, z=-211.99]]
+	Chunk stats: ServerChunkCache: 2025
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (227,92,-117), Chunk: (at 3,5,11 in 14,-8; contains blocks 224,0,-128 to 239,255,-113), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Level time: 1057768 game time, 2487 day time
+	Level name: 新的世界
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 1 (now: false), thunder time: 1 (now: false)
+	Known server brands: forge
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:851) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:787) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:78) ~[forge:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[forge:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_301] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_301, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 621338952 bytes (592 MB) / 1900544000 bytes (1812 MB) up to 3806855168 bytes (3630 MB)
+	CPUs: 12
+	JVM Flags: 2 total; -XX:+IgnoreUnrecognizedVMOptions -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 8.0.9+86+master.3cf110c
+	ModLauncher launch target: fmluserdevclient
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/mixin-0.8.4.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3-launcher.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3-launcher.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3-launcher.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3-launcher.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3-launcher.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.20
+	FML Language Providers: 
+		javafml@36.2
+		minecraft@1
+	Mod List: 
+		client-extra.jar                                  |Minecraft                     |minecraft                     |1.16.5              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		main                                              |Torrential Desolation         |torrential_desolation         |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.20_mapped_snapshot_20201028-1.16|Forge                         |forge                         |36.2.20             |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: f5744c1e-e0ec-4908-89a7-9590673aedf8
+	Player Count: 1 / 8; [ServerPlayerEntity['Dev'/133, l='ServerLevel[新的世界]', x=133.71, y=108.00, z=-211.99]]
+	Data Packs: vanilla, mod:torrential_desolation, mod:forge
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'

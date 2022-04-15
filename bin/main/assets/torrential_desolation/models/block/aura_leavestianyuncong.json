@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "torrential_desolation:blocks/aura_leavestianyuncong",
+    "particle": "torrential_desolation:blocks/aura_leavestianyuncong"
+  }
+}

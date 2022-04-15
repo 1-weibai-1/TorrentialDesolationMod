@@ -1,0 +1,485 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 18,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "确定",
+          "onClick": {
+            "name": "Bloodgersnandnumber"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "确定",
+          "x": 199,
+          "y": 114
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 132,
+          "y": 138
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 150,
+          "y": 138
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 132,
+          "y": 156
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 132,
+          "y": 174
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 132,
+          "y": 196
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 150,
+          "y": 196
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 168,
+          "y": 138
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 150,
+          "y": 156
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 150,
+          "y": 174
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 168,
+          "y": 196
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 168,
+          "y": 156
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 168,
+          "y": 174
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 186,
+          "y": 196
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 204,
+          "y": 196
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 222,
+          "y": 196
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 186,
+          "y": 138
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 186,
+          "y": 156
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 186,
+          "y": 174
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 204,
+          "y": 138
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 204,
+          "y": 156
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 204,
+          "y": 174
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 222,
+          "y": 138
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 222,
+          "y": 156
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 222,
+          "y": 174
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 240,
+          "y": 138
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 258,
+          "y": 138
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 276,
+          "y": 138
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 240,
+          "y": 156
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 240,
+          "y": 174
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 258,
+          "y": 156
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 276,
+          "y": 156
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 258,
+          "y": 174
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 276,
+          "y": 174
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 240,
+          "y": 196
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 258,
+          "y": 196
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 276,
+          "y": 196
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Bloodgas"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 146,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Bloodgas"
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 187,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_1.png",
+          "use1Xscale": false,
+          "name": "arrow_1.png",
+          "x": 215,
+          "y": 70
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "plus.png",
+          "use1Xscale": false,
+          "name": "plus.png",
+          "x": 167,
+          "y": 70
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 146,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 187,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lattice.png",
+          "use1Xscale": false,
+          "name": "lattice.png",
+          "x": 266,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 266,
+          "y": 71
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

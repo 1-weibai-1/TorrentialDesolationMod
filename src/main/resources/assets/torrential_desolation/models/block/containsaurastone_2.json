@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "torrential_desolation:blocks/containsaurastone_2",
+    "particle": "torrential_desolation:blocks/containsaurastone_2"
+  }
+}

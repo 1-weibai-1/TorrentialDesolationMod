@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "torrential_desolation:blocks/aura_wood_tianyuncong_top",
+    "particle": "torrential_desolation:blocks/aura_wood_tianyuncong_top"
+  }
+}

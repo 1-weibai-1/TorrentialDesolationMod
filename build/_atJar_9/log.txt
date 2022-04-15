@@ -1,0 +1,7 @@
+Java Launcher: C:\Program Files\Java\jdk1.8.0_301\bin\java.exe
+Arguments: '--inJar, E:\MakeMod\MCreatorWorkspaces\TorrentialDesolation\build\fg_cache\net\minecraftforge\forge\1.16.5-36.2.20\forge-1.16.5-36.2.20-injected.jar, --outJar, E:\MakeMod\MCreatorWorkspaces\TorrentialDesolation\build\fg_cache\net\minecraftforge\forge\1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3\forge-1.16.5-36.2.20_mapped_snapshot_20201028-1.16.3.jar, --logFile, accesstransform.log, --atFile, E:\MakeMod\MCreatorWorkspaces\TorrentialDesolation\src\main\resources\META-INF\accesstransformer.cfg, --atFile, E:\MakeMod\MCreatorWorkspaces\TorrentialDesolation\build\_atJar_9\parent_at.cfg'
+Classpath:
+ - C:\Users\19164\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working directory: E:\MakeMod\MCreatorWorkspaces\TorrentialDesolation\build\_atJar_9
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

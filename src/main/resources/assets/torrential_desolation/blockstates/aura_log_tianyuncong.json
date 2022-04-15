@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "torrential_desolation:block/aura_log_tianyuncong",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "torrential_desolation:block/aura_log_tianyuncong"
+    },
+    "axis=z": {
+      "model": "torrential_desolation:block/aura_log_tianyuncong",
+      "x": 90
+    }
+  }
+}

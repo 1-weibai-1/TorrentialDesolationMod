@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "torrential_desolation:blocks/aura_log_tianyuncong_top",
+    "up": "torrential_desolation:blocks/aura_log_tianyuncong_top",
+    "north": "torrential_desolation:blocks/aura_log_tianyuncong",
+    "east": "torrential_desolation:blocks/aura_log_tianyuncong",
+    "south": "torrential_desolation:blocks/aura_log_tianyuncong",
+    "west": "torrential_desolation:blocks/aura_log_tianyuncong",
+    "particle": "torrential_desolation:blocks/aura_log_tianyuncong_top"
+  }
+}

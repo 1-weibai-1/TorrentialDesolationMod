@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "torrential_desolation:blocks/contains_aura_cobblestone",
+    "particle": "torrential_desolation:blocks/contains_aura_cobblestone"
+  }
+}
