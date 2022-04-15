@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fletching_table_bottom",
+        "1": "bow",
+        "2": "arrow",
+        "3": "fletching_table_side",
+        "6": "fletching_table_front",
+        "7": "fletching_table_top"
+      },
+      "name": "default"
+    }
+  }
+}

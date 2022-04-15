@@ -1,0 +1,12 @@
+{
+  "parent": "torrential_desolation:custom/fletching_table",
+  "textures": {
+		"0": "torrential_desolation:items/fletching_table_front",
+		"1": "torrential_desolation:items/fletching_table_bottom",
+		"2": "torrential_desolation:items/fletching_table_top",
+		"3": "torrential_desolation:items/fletching_table_side",
+		"6": "torrential_desolation:items/bow",
+		"7": "torrential_desolation:items/arrow",
+		"particle": "torrential_desolation:items/fletching_table_front"
+  }
+}

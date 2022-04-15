@@ -1,0 +1,14 @@
+# Made in Blockbench 4.1.5
+newmtl m_0
+map_Kd fletching_table_front.png 
+newmtl m_1
+map_Kd fletching_table_bottom.png 
+newmtl m_2
+map_Kd fletching_table_top.png 
+newmtl m_3
+map_Kd fletching_table_side.png 
+newmtl m_6
+map_Kd bow.png 
+newmtl m_7
+map_Kd arrow.png 
+newmtl none
